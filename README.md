@@ -51,8 +51,8 @@ src="https://github.com/furkancosgun/SwiftUI-DropBox-App-With-SpringBootAPI/blob
 </td>
 </tr>
 <tr>
-<td><b>Listing</b></td>
-<td><b>Select Image</b></td>
+<td align=center><b>Listing</b></td>
+<td align=center><b>Select Image</b></td>
 </tr>
 <tr>
 <td>
@@ -67,8 +67,8 @@ src="https://github.com/furkancosgun/SwiftUI-DropBox-App-With-SpringBootAPI/blob
 </td>
 </tr>
 <tr>
-<td><b>Selecting Image</b></td>
-<td><b>Selected Image And Saved</b></td>
+<td align=center><b>Selecting Image</b></td>
+<td align=center><b>Selected Image And Saved</b></td>
 </tr>
 <tr>
 <td>
@@ -83,8 +83,8 @@ src="https://github.com/furkancosgun/SwiftUI-DropBox-App-With-SpringBootAPI/blob
 </td>
 </tr>
 <tr>
-<td><b>Image Preview</b></td>
-<td><b>Image Zoom In / Out</b></td>
+<td align=center><b>Image Preview</b></td>
+<td align=center><b>Image Zoom In / Out</b></td>
 </tr>
 </table>
 
