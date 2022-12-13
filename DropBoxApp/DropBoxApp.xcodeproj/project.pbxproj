@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4555B66B2949009800D806A9 /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4555B66A2949009800D806A9 /* APIPath.swift */; };
+		45CDACC9294791AF00FE4B76 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDACC8294791AF00FE4B76 /* FileService.swift */; };
+		45CDACCC2947982900FE4B76 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDACCB2947982900FE4B76 /* HomeViewModel.swift */; };
+		45CDACCF2947B5E800FE4B76 /* MultipartFormData in Frameworks */ = {isa = PBXBuildFile; productRef = 45CDACCE2947B5E800FE4B76 /* MultipartFormData */; };
+		45CDACD12947C5EA00FE4B76 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDACD02947C5EA00FE4B76 /* ImageContainer.swift */; };
+		45D0301329463772007EEF58 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0301229463772007EEF58 /* PreviewView.swift */; };
+		45D0301629463A99007EEF58 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0301529463A99007EEF58 /* AuthViewModel.swift */; };
+		45D0301929463BF9007EEF58 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0301829463BF9007EEF58 /* User.swift */; };
+		45E9305329464E0A0038459A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9305229464E0A0038459A /* Images.swift */; };
+		45E93056294651F40038459A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E93055294651F40038459A /* AuthService.swift */; };
+		45F365A5294251C3004EDF25 /* DropBoxAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F365A4294251C3004EDF25 /* DropBoxAppApp.swift */; };
+		45F365A7294251C3004EDF25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F365A6294251C3004EDF25 /* ContentView.swift */; };
+		45F365A9294251C4004EDF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F365A8294251C4004EDF25 /* Assets.xcassets */; };
+		45F365AC294251C4004EDF25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F365AB294251C4004EDF25 /* Preview Assets.xcassets */; };
+		45F365B3294251E8004EDF25 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F365B2294251E8004EDF25 /* ImagePicker.swift */; };
+		45F365B529425203004EDF25 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F365B429425203004EDF25 /* ImageUploader.swift */; };
+		45F4DDD4294261910000B4C3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4DDD3294261910000B4C3 /* LoginView.swift */; };
+		45F4DDD92942644E0000B4C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4DDD82942644E0000B4C3 /* CustomTextField.swift */; };
+		45F4DDDC2942661B0000B4C3 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4DDDB2942661B0000B4C3 /* RoundedShape.swift */; };
+		45F4DDDE294266E50000B4C3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4DDDD294266E50000B4C3 /* RegisterView.swift */; };
+		45F4DDE0294269630000B4C3 /* PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4DDDF294269630000B4C3 /* PlaceHolder.swift */; };
+		45F4DDE429426A050000B4C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4DDE329426A050000B4C3 /* HomeView.swift */; };
+		45F4DDE729426AC20000B4C3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 45F4DDE629426AC20000B4C3 /* Kingfisher */; };
+		45F4DDEA29426AD70000B4C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 45F4DDE929426AD70000B4C3 /* Alamofire */; };
+		45F4DDEC29426FC20000B4C3 /* ImageSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4DDEB29426FC20000B4C3 /* ImageSave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4555B66A2949009800D806A9 /* APIPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		45CDACC8294791AF00FE4B76 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		45CDACCB2947982900FE4B76 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		45CDACD02947C5EA00FE4B76 /* ImageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContainer.swift; sourceTree = "<group>"; };
+		45D0301229463772007EEF58 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		45D0301529463A99007EEF58 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		45D0301829463BF9007EEF58 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		45E9305229464E0A0038459A /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		45E93055294651F40038459A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		45F365A1294251C3004EDF25 /* DropBoxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBoxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F365A4294251C3004EDF25 /* DropBoxAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBoxAppApp.swift; sourceTree = "<group>"; };
+		45F365A6294251C3004EDF25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45F365A8294251C4004EDF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F365AB294251C4004EDF25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45F365B2294251E8004EDF25 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		45F365B429425203004EDF25 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		45F4DDD3294261910000B4C3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		45F4DDD82942644E0000B4C3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		45F4DDDB2942661B0000B4C3 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		45F4DDDD294266E50000B4C3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		45F4DDDF294269630000B4C3 /* PlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolder.swift; sourceTree = "<group>"; };
+		45F4DDE329426A050000B4C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		45F4DDEB29426FC20000B4C3 /* ImageSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSave.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F3659E294251C3004EDF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CDACCF2947B5E800FE4B76 /* MultipartFormData in Frameworks */,
+				45F4DDE729426AC20000B4C3 /* Kingfisher in Frameworks */,
+				45F4DDEA29426AD70000B4C3 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45CDACCA2947981F00FE4B76 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45CDACCB2947982900FE4B76 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45D03010294636F0007EEF58 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				45D03011294636FE007EEF58 /* View */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		45D03011294636FE007EEF58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45D0301229463772007EEF58 /* PreviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45D030142946394B007EEF58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45F4DDEB29426FC20000B4C3 /* ImageSave.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45D0301729463BEF007EEF58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45D0301829463BF9007EEF58 /* User.swift */,
+				45E9305229464E0A0038459A /* Images.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45E93054294651EA0038459A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				45E93055294651F40038459A /* AuthService.swift */,
+				45CDACC8294791AF00FE4B76 /* FileService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		45F36598294251C3004EDF25 = {
+			isa = PBXGroup;
+			children = (
+				45F365A3294251C3004EDF25 /* DropBoxApp */,
+				45F365A2294251C3004EDF25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45F365A2294251C3004EDF25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F365A1294251C3004EDF25 /* DropBoxApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F365A3294251C3004EDF25 /* DropBoxApp */ = {
+			isa = PBXGroup;
+			children = (
+				45E93054294651EA0038459A /* Service */,
+				45D0301729463BEF007EEF58 /* Model */,
+				45F4DDDA294266110000B4C3 /* Extensions */,
+				45F4DDCE294261640000B4C3 /* Core */,
+				45F4DDCD2942615A0000B4C3 /* Utilities */,
+				45F365A4294251C3004EDF25 /* DropBoxAppApp.swift */,
+				45F365A6294251C3004EDF25 /* ContentView.swift */,
+				45F365A8294251C4004EDF25 /* Assets.xcassets */,
+				45F365AA294251C4004EDF25 /* Preview Content */,
+			);
+			path = DropBoxApp;
+			sourceTree = "<group>";
+		};
+		45F365AA294251C4004EDF25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45F365AB294251C4004EDF25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45F4DDCD2942615A0000B4C3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				45F365B2294251E8004EDF25 /* ImagePicker.swift */,
+				45F365B429425203004EDF25 /* ImageUploader.swift */,
+				4555B66A2949009800D806A9 /* APIPath.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		45F4DDCE294261640000B4C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				45F4DDD72942643C0000B4C3 /* Components */,
+				45F4DDCF2942616D0000B4C3 /* Screens */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		45F4DDCF2942616D0000B4C3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				45D03010294636F0007EEF58 /* Preview */,
+				45F4DDED2942718D0000B4C3 /* Image */,
+				45F4DDE1294269F60000B4C3 /* Home */,
+				45F4DDD0294261740000B4C3 /* Auth */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		45F4DDD0294261740000B4C3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				45F4DDD2294261800000B4C3 /* ViewModel */,
+				45F4DDD12942617B0000B4C3 /* View */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		45F4DDD12942617B0000B4C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45F4DDD3294261910000B4C3 /* LoginView.swift */,
+				45F4DDDD294266E50000B4C3 /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45F4DDD2294261800000B4C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45D0301529463A99007EEF58 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45F4DDD72942643C0000B4C3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				45F4DDD82942644E0000B4C3 /* CustomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		45F4DDDA294266110000B4C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45F4DDDB2942661B0000B4C3 /* RoundedShape.swift */,
+				45F4DDDF294269630000B4C3 /* PlaceHolder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45F4DDE1294269F60000B4C3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				45CDACCA2947981F00FE4B76 /* ViewModel */,
+				45F4DDE2294269FD0000B4C3 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		45F4DDE2294269FD0000B4C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45F4DDE329426A050000B4C3 /* HomeView.swift */,
+				45CDACD02947C5EA00FE4B76 /* ImageContainer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45F4DDED2942718D0000B4C3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				45D030142946394B007EEF58 /* View */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F365A0294251C3004EDF25 /* DropBoxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F365AF294251C4004EDF25 /* Build configuration list for PBXNativeTarget "DropBoxApp" */;
+			buildPhases = (
+				45F3659D294251C3004EDF25 /* Sources */,
+				45F3659E294251C3004EDF25 /* Frameworks */,
+				45F3659F294251C3004EDF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropBoxApp;
+			packageProductDependencies = (
+				45F4DDE629426AC20000B4C3 /* Kingfisher */,
+				45F4DDE929426AD70000B4C3 /* Alamofire */,
+				45CDACCE2947B5E800FE4B76 /* MultipartFormData */,
+			);
+			productName = DropBoxApp;
+			productReference = 45F365A1294251C3004EDF25 /* DropBoxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F36599294251C3004EDF25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					45F365A0294251C3004EDF25 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 45F3659C294251C3004EDF25 /* Build configuration list for PBXProject "DropBoxApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F36598294251C3004EDF25;
+			packageReferences = (
+				45F4DDE529426AC20000B4C3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				45F4DDE829426AD70000B4C3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				45CDACCD2947B5E800FE4B76 /* XCRemoteSwiftPackageReference "swift-multipart-formdata" */,
+			);
+			productRefGroup = 45F365A2294251C3004EDF25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F365A0294251C3004EDF25 /* DropBoxApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F3659F294251C3004EDF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F365AC294251C4004EDF25 /* Preview Assets.xcassets in Resources */,
+				45F365A9294251C4004EDF25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F3659D294251C3004EDF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F4DDEC29426FC20000B4C3 /* ImageSave.swift in Sources */,
+				45CDACCC2947982900FE4B76 /* HomeViewModel.swift in Sources */,
+				45F4DDDC2942661B0000B4C3 /* RoundedShape.swift in Sources */,
+				45F365B3294251E8004EDF25 /* ImagePicker.swift in Sources */,
+				45D0301629463A99007EEF58 /* AuthViewModel.swift in Sources */,
+				45F365B529425203004EDF25 /* ImageUploader.swift in Sources */,
+				45F4DDE429426A050000B4C3 /* HomeView.swift in Sources */,
+				4555B66B2949009800D806A9 /* APIPath.swift in Sources */,
+				45D0301929463BF9007EEF58 /* User.swift in Sources */,
+				45CDACC9294791AF00FE4B76 /* FileService.swift in Sources */,
+				45D0301329463772007EEF58 /* PreviewView.swift in Sources */,
+				45E9305329464E0A0038459A /* Images.swift in Sources */,
+				45F4DDD92942644E0000B4C3 /* CustomTextField.swift in Sources */,
+				45CDACD12947C5EA00FE4B76 /* ImageContainer.swift in Sources */,
+				45F365A7294251C3004EDF25 /* ContentView.swift in Sources */,
+				45F4DDE0294269630000B4C3 /* PlaceHolder.swift in Sources */,
+				45F4DDDE294266E50000B4C3 /* RegisterView.swift in Sources */,
+				45F4DDD4294261910000B4C3 /* LoginView.swift in Sources */,
+				45F365A5294251C3004EDF25 /* DropBoxAppApp.swift in Sources */,
+				45E93056294651F40038459A /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45F365AD294251C4004EDF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F365AE294251C4004EDF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F365B0294251C4004EDF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DropBoxApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y457UX6652;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = furkancosgun.DropBoxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45F365B1294251C4004EDF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DropBoxApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y457UX6652;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = furkancosgun.DropBoxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F3659C294251C3004EDF25 /* Build configuration list for PBXProject "DropBoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F365AD294251C4004EDF25 /* Debug */,
+				45F365AE294251C4004EDF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F365AF294251C4004EDF25 /* Build configuration list for PBXNativeTarget "DropBoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F365B0294251C4004EDF25 /* Debug */,
+				45F365B1294251C4004EDF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45CDACCD2947B5E800FE4B76 /* XCRemoteSwiftPackageReference "swift-multipart-formdata" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FelixHerrmann/swift-multipart-formdata.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		45F4DDE529426AC20000B4C3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		45F4DDE829426AD70000B4C3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45CDACCE2947B5E800FE4B76 /* MultipartFormData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45CDACCD2947B5E800FE4B76 /* XCRemoteSwiftPackageReference "swift-multipart-formdata" */;
+			productName = MultipartFormData;
+		};
+		45F4DDE629426AC20000B4C3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45F4DDE529426AC20000B4C3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		45F4DDE929426AD70000B4C3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45F4DDE829426AD70000B4C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 45F36599294251C3004EDF25 /* Project object */;
+}

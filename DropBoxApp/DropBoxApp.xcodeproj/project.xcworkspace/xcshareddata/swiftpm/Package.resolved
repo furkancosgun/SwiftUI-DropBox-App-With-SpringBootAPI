@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3e091ee962391a2ddcae5b18e17bc625f9d88d6e"
+      }
+    },
+    {
+      "identity" : "swift-multipart-formdata",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/FelixHerrmann/swift-multipart-formdata.git",
+      "state" : {
+        "revision" : "19f4e7aff8854e0395bdf3e6f33026d9f00bc89f",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
